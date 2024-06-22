@@ -15,29 +15,44 @@
   <body dir="rtl">
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mn">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <a href="" class="navbar-brand ml-3">
-        <i class="fa-solid fa-mobile" style="font-size: 25px; color:#74C0FC;"></i>
+        <i class="fa-solid fa-mobile" style="font-size: 25px; color:#5b52f7;"></i>
       </a>
-      <ul class="navbar-nav">
-        <li class="nav-item mx-2">
-          <a href="" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a href="" class="nav-link">Gallery</a>
-        </li>
-        <li class="nav-item mx-2 dropdown">
-          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Products</a>
-          <div class="dropdown-menu">
-            <a href="" class="dropdown-item"></a>
-            <a href="" class="dropdown-item"></a>
-            <a href="" class="dropdown-item"></a>
-            <a href="" class="dropdown-item"></a>
+      <div class="collapse navbar-collapse" id="mn">
+        <ul class="navbar-nav list-unstyled my-3">
+          <li class="nav-item mx-2">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item mx-2 dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Products</a>
+            <div class="dropdown-menu">
+              <a href="" class="dropdown-item">Samsung Z</a>
+              <a href="" class="dropdown-item">Samsung S</a>
+              <a href="" class="dropdown-item">Samsung A</a>
+              <a href="" class="dropdown-item">Samsung M</a>
+            </div>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="" class="nav-link">Customer</a>
+          </li>
+        </ul>
+        <form action="" class="form-inline mr-auto">
+          <div class="input-group">
+            <input type="text"  placeholder="Search" class="form-control">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
           </div>
-        </li>
-        <li class="nav-item mx-2">
-          <a href="" class="nav-link">Customer</a>
-        </li>
-      </ul>
+        </form>
+      </div>
     </nav>
     <!--end of navbar-->
 
