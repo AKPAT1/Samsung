@@ -1,11 +1,35 @@
 body
 {
     font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'yekan';
     background-color: darkgray;
 }
+
+.imgbrd
+{
+    border-radius:0px 40px 0px 40px;
+}
+
 .imgbnn
 {
     border-radius:0px 40px 0px 40px;
-    box-shadow: 10px 0px 15px black;
+    border-color: black;
+    box-shadow: 15px 0px 15px black;
+    transition:1s;
+}
+
+.imgbnn:hover
+{
+    box-shadow: 0px 0px 0px black;
+}
+
+.p3
+{   
+    transform: rotateX(30deg) rotateY(25deg);
+    transition:1s;
+}
+
+.p3:hover
+{
+    transform: rotateX(0deg) rotateY(0deg);
 }
